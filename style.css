@@ -44,8 +44,8 @@ body {
   color: rgb(169, 169, 169);
 }
 
-div.active {
-  border: #4287f5;
+.circle.active {
+  border: 3px solid #4287f5;
 }
 
 .line {
@@ -62,11 +62,13 @@ button {
   text-decoration: none;
   border: none;
   width: 75px;
-  height: 35px;
+  height: 30px;
   font-family: "Arial", sans-serif;
   color: #fff;
+  cursor: not-allowed;
 }
 
 button.active {
   background-color: #4287f5;
+  cursor: pointer;
 }
