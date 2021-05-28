@@ -1,8 +1,11 @@
 const nums = document.querySelectorAll('.circle');
 const next_btn = document.querySelector('#next');
+const prev_btn = document.querySelector('#prev');
 
 nums.forEach(element => {
-    next_btn.addEventListener('click', () => {
-        element.classList.add('active');
+    element.addEventListener('click', () => {
+        
     })
+
 })
+
